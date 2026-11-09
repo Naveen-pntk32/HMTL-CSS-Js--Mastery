@@ -322,10 +322,18 @@ footer{
     align-items: center;
     gap: 20px;
 }
+.volts i{
+    font-size: 40px;
+    /* border: solid 1px black;
+    border-radius: 40px; */
+}
 .chat, .schedule{
     height: 45px;
     border: solid 1px gray;
     border-radius: 2px;
     background-color: rgb(217, 217, 217);
     padding: 0 40px;
+}
+.chat, .schedule p{
+    color: gray;
 }
